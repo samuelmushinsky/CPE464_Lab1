@@ -35,6 +35,8 @@
  */
 
 
+#define _DEFAULT_SOURCE
+#define _BSD_SOURCE
 #include <stdlib.h>
 #include <stdio.h>
 #include <sys/types.h>

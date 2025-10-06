@@ -1,11 +1,13 @@
 // libs
+#define _DEFAULT_SOURCE
+#define _BSD_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
-#include <pcap/pcap.h>
 #include "trace.h"
 #include <arpa/inet.h>
 #include <string.h>
 #include "checksum.h"
+#include <pcap/pcap.h>
 
 
 // decodes ethernet at data 
