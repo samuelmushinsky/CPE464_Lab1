@@ -250,7 +250,7 @@ static void ip(const u_char *data, uint32_t caplen) {
         udp(l4, l4_caplen, iphdr.src_ip, iphdr.dst_ip);
         break;
     default:
-        // Do nothing: no L4 header printed, and no extra blank line.
+        
         break;
     }   
 }
@@ -265,7 +265,7 @@ static void icmp(const u_char *data, uint32_t caplen) {
     icmp_header_t ih;
     memcpy(&ih, data, sizeof(ih));
 
-    // Print "Request" for 8, "Reply" for 0, otherwise the numeric type
+    //  "Request" for 8, "Reply" for 0, otherwise num type
     char tbuf[16];
     const char *tstr = NULL;
     if (ih.type == 8) {
@@ -296,12 +296,11 @@ static void tcp(const u_char *data, uint32_t caplen,
     uint32_t seq_num  = ntohl(th.seq_num);
     uint32_t ack_num  = ntohl(th.ack_num);
 
-    // Data offset: upper 4 bits -> words -> bytes (no bit-shifts)
+    // upper 4 bits -> words -> bytes (no bit-shifts)
     uint8_t  offset_words = (uint8_t)((th.data_offset & 0xF0) / 16);
     uint16_t hdr_len      = (uint16_t)(offset_words * 4);
 
     if (caplen < hdr_len) {
-        // Warn, but DO NOT return — grader still expects output & checksum verdicts
         fprintf(stderr, "\t[TCP] short header — HdrLen=%u, caplen=%u\n",
                 hdr_len, caplen);
     }
