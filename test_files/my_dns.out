@@ -1,0 +1,286 @@
+
+Packet number: 1  Packet Len: 93
+
+	Ethernet Header
+		Dest MAC: 14:59:c0:51:0a:20
+		Source MAC: f8:4d:89:5b:cd:ec
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 2  Packet Len: 93
+
+	Ethernet Header
+		Dest MAC: 14:59:c0:51:0a:20
+		Source MAC: f8:4d:89:5b:cd:ec
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 3  Packet Len: 223
+
+	Ethernet Header
+		Dest MAC: f8:4d:89:5b:cd:ec
+		Source MAC: 14:59:c0:51:0a:20
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 4  Packet Len: 263
+
+	Ethernet Header
+		Dest MAC: f8:4d:89:5b:cd:ec
+		Source MAC: 14:59:c0:51:0a:20
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 5  Packet Len: 163
+
+	Ethernet Header
+		Dest MAC: 14:59:c0:51:0a:20
+		Source MAC: f8:4d:89:5b:cd:ec
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 6  Packet Len: 163
+
+	Ethernet Header
+		Dest MAC: 14:59:c0:51:0a:20
+		Source MAC: f8:4d:89:5b:cd:ec
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 7  Packet Len: 163
+
+	Ethernet Header
+		Dest MAC: f8:4d:89:5b:cd:ec
+		Source MAC: 14:59:c0:51:0a:20
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 8  Packet Len: 163
+
+	Ethernet Header
+		Dest MAC: f8:4d:89:5b:cd:ec
+		Source MAC: 14:59:c0:51:0a:20
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 9  Packet Len: 71
+
+	Ethernet Header
+		Dest MAC: 14:59:c0:51:0a:20
+		Source MAC: f8:4d:89:5b:cd:ec
+		Type: IP
+
+	IP Header
+		IP PDU Len: 57
+		Header Len (bytes): 20
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0xa01f)
+		Sender IP: 192.168.1.18
+		Dest IP: 1.1.1.1
+
+	UDP Header
+		Source Port: 57880
+		Dest Port: DNS
+
+Packet number: 10  Packet Len: 167
+
+	Ethernet Header
+		Dest MAC: f8:4d:89:5b:cd:ec
+		Source MAC: 14:59:c0:51:0a:20
+		Type: IP
+
+	IP Header
+		IP PDU Len: 153
+		Header Len (bytes): 20
+		TTL: 54
+		Protocol: UDP
+		Checksum: Correct (0x37ca)
+		Sender IP: 1.1.1.1
+		Dest IP: 192.168.1.18
+
+	UDP Header
+		Source Port: DNS
+		Dest Port: 57880
+
+Packet number: 11  Packet Len: 116
+
+	Ethernet Header
+		Dest MAC: 14:59:c0:51:0a:20
+		Source MAC: f8:4d:89:5b:cd:ec
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 12  Packet Len: 111
+
+	Ethernet Header
+		Dest MAC: 14:59:c0:51:0a:20
+		Source MAC: f8:4d:89:5b:cd:ec
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 13  Packet Len: 116
+
+	Ethernet Header
+		Dest MAC: f8:4d:89:5b:cd:ec
+		Source MAC: 14:59:c0:51:0a:20
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 14  Packet Len: 140
+
+	Ethernet Header
+		Dest MAC: f8:4d:89:5b:cd:ec
+		Source MAC: 14:59:c0:51:0a:20
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 15  Packet Len: 88
+
+	Ethernet Header
+		Dest MAC: 14:59:c0:51:0a:20
+		Source MAC: f8:4d:89:5b:cd:ec
+		Type: IP
+
+	IP Header
+		IP PDU Len: 74
+		Header Len (bytes): 20
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x309e)
+		Sender IP: 192.168.1.18
+		Dest IP: 192.168.1.1
+
+	UDP Header
+		Source Port: 65463
+		Dest Port: DNS
+
+Packet number: 16  Packet Len: 88
+
+	Ethernet Header
+		Dest MAC: 14:59:c0:51:0a:20
+		Source MAC: f8:4d:89:5b:cd:ec
+		Type: IP
+
+	IP Header
+		IP PDU Len: 74
+		Header Len (bytes): 20
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x551b)
+		Sender IP: 192.168.1.18
+		Dest IP: 192.168.1.1
+
+	UDP Header
+		Source Port: 24924
+		Dest Port: DNS
+
+Packet number: 17  Packet Len: 88
+
+	Ethernet Header
+		Dest MAC: 14:59:c0:51:0a:20
+		Source MAC: f8:4d:89:5b:cd:ec
+		Type: IP
+
+	IP Header
+		IP PDU Len: 74
+		Header Len (bytes): 20
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x49ec)
+		Sender IP: 192.168.1.18
+		Dest IP: 192.168.1.1
+
+	UDP Header
+		Source Port: 61938
+		Dest Port: DNS
+
+Packet number: 18  Packet Len: 172
+
+	Ethernet Header
+		Dest MAC: f8:4d:89:5b:cd:ec
+		Source MAC: 14:59:c0:51:0a:20
+		Type: IP
+
+	IP Header
+		IP PDU Len: 158
+		Header Len (bytes): 20
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x952d)
+		Sender IP: 192.168.1.1
+		Dest IP: 192.168.1.18
+
+	UDP Header
+		Source Port: DNS
+		Dest Port: 65463
+
+Packet number: 19  Packet Len: 136
+
+	Ethernet Header
+		Dest MAC: f8:4d:89:5b:cd:ec
+		Source MAC: 14:59:c0:51:0a:20
+		Type: IP
+
+	IP Header
+		IP PDU Len: 122
+		Header Len (bytes): 20
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x9550)
+		Sender IP: 192.168.1.1
+		Dest IP: 192.168.1.18
+
+	UDP Header
+		Source Port: DNS
+		Dest Port: 61938
+
+Packet number: 20  Packet Len: 172
+
+	Ethernet Header
+		Dest MAC: f8:4d:89:5b:cd:ec
+		Source MAC: 14:59:c0:51:0a:20
+		Type: IP
+
+	IP Header
+		IP PDU Len: 158
+		Header Len (bytes): 20
+		TTL: 64
+		Protocol: UDP
+		Checksum: Correct (0x952b)
+		Sender IP: 192.168.1.1
+		Dest IP: 192.168.1.18
+
+	UDP Header
+		Source Port: DNS
+		Dest Port: 24924
+
+Packet number: 21  Packet Len: 115
+
+	Ethernet Header
+		Dest MAC: 14:59:c0:51:0a:20
+		Source MAC: f8:4d:89:5b:cd:ec
+		Type: 0x86dd
+
+Unknown
+
+Packet number: 22  Packet Len: 115
+
+	Ethernet Header
+		Dest MAC: f8:4d:89:5b:cd:ec
+		Source MAC: 14:59:c0:51:0a:20
+		Type: 0x86dd
+
+Unknown
